@@ -116,6 +116,8 @@ export default class VanillaTilt {
       this.glareElement.style.transform = 'rotate(180deg) translate(-50%, -50%)';
       this.glareElement.style.opacity = '0';
     }
+    
+    this.update();
   }
 
   getValues() {
